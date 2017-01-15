@@ -1,0 +1,3372 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sqwrl="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"
+    xmlns="http://www.owl-ontologies.com/Ontology1432653155.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+  xml:base="http://www.owl-ontologies.com/Ontology1432653155.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl"/>
+    <owl:imports rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="project_task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Organization"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WSD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="paraphrase_discovery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Ohters"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Users_and_interactive_retrieval">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Glove">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="similarity_tool-Semantic_NLP"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Korean_parser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WordNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cross_Document_Information_Fusion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information_Fusion"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MRF-Markov_Random_Fields">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="finite_state_transducers_">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Pattern_Matching"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Kdd09cma1_Corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Audio_mining">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lazy_Learners">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Single_document_summarization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Automatic_summarization-Text_summarization"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Semantic_Web">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Computational_semantics"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Factorization_method">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Dimensionality_reduction_and_manifold_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="language_models">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="gensim">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="semantic_modelling-Topic_model"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Parts_of_speech_tagging-POS_tagging">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="NLP-Natural_language_processing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="binary_valued_features">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="local_Features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_Detection_TASK">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rationale">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="VerbNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TREC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RG">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Semantic_Relations_Dataset"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="seeds">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="KnowLedgeBase-Ontology"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="summarization_in_the_context_of_question_answering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Automatic_summarization-Text_summarization"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Evaluation_of_retrieval_results">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Textpro">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="NLP_tools"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="annotation_tools">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Learning_under_covariate_shift">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Multi_task_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cora">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Reference_Dataset"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="F_measure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="active_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Semi_supervised_learning-Distant_Supervision-semi_supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#KnowLedgeBase-Ontology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Infrastructure"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Stanford_NER">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Named_Entities_Recognizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="pdfstamp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TASA_corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Retrieval_models_and_ranking">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Japanese_Extended_named_entity_tagger">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Named_Entities_Recognizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Diderot">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftMealy">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Knowitall">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="query_expansion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Grammar_checker">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="phrase_length">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lifelong_machine_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Multi_task_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="word2phrase">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#similarity_tool-Semantic_NLP"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Semi_Supervised_Classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Semi_supervised_learning-Distant_Supervision-semi_supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Maximum_Entropy_Model-MaxEnt">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Machine_Learning-Feature_based_Methord-statistical_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rouge-SU9">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ROUGE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hidden_Markov_models-HMM">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="manually_predefined">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="manually_process"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Go_Cortex">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="dependency_graph">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="parse_dependency_tree-dependency_parse_trees"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="simulated_annealing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="heuristic_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Search_interfaces">
+    <rdfs:subClassOf rdf:resource="#Users_and_interactive_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:ID="relation_topic">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_understanding-text_analysis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CART">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Decision_Tree"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="semantic_Similarity">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Computational_semantics"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Academic_Vocabulary_Lists">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lexicon"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Microsoft_Academic_Graph">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="UIMA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="FrameWork"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Python">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Language"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="The_Academic_Corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ABNER">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="domain_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="semantic_seeds">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="slot_assigned_patterns">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Rule_Based-rule-based_approach-pattern-based_approache"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="European_Languages_lemmatizer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="lemmatization_and_stemmer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Merging_Decision_Model">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Basic_Method"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MMSeg4j">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FreeCite">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="R">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Language"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Real_time_question_answering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Infrastructure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Computional_Linguistics"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Pattern-based_classification_">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Speech_Recognition">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Query_suggestion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Information_retrieval_query_processing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BING">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Search_engine-retrieval_system"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="open_domain_event_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Event_Extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="dependency_tree">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="syntactic_features-parser_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Open_Information_Extractor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Spectral_clustering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Dimensionality_reduction_approaches"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CLIQUE-Clustering_In_QUEst">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Grid-Based_Method"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Dimensionality_reduction_and_manifold_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FundRef">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Link-based_clustering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Cluster_analysis-clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BabelNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Jieba">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="structural_restriction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Pattern_Matching"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Basic_Process">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Topics"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Medline_bibliographic_database">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Adversarial_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Reinforcement_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mogura">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Deep_parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LC4J">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Language_guess_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Knowledge_Graph">
+    <rdfs:subClassOf rdf:resource="#Semantic_Web"/>
+  </owl:Class>
+  <owl:Class rdf:ID="tokenlizer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#NLP_tools"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rouge_w1.2">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ROUGE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Distributed_retrieval">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Search_engine_architectures_and_scalability"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Scenario_Template_Task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Self_Supervised_Classifier">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Semi_supervised_learning-Distant_Supervision-semi_supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Paraphrase_Acquisition">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sentence_Semantic_Similarity">
+    <rdfs:subClassOf rdf:resource="#semantic_Similarity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Information_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WktWiKi">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="WIKIPedia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="STINGA-Statistical_Information_Grid_Approach">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Grid-Based_Method"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Query_reformulation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_retrieval_query_processing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SRV">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="IF-THEN">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Rule-Based_Classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MinorThird">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Named_Entities_Recognizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="express_rules">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Rule_Based-rule-based_approach-pattern-based_approache"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Snowball">
+    <rdfs:subClassOf rdf:resource="#Open_Information_Extractor"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LETOR4.0_Datasets">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="lexical_disambiguation">
+    <rdfs:subClassOf rdf:resource="#WSD"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Word_Segmentation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#NLP-Natural_language_processing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Latent_Dirichlet_allocation">
+    <rdfs:subClassOf rdf:resource="#Factorization_method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ontology_driven_information_Extractor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="POS_Tagger">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#NLP_tools"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Divisive_Analysis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Hierarchical_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Synonym">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RoadRunner">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Email_Classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Short_text_Classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Entity_Attributes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#local_Features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CBA-Classification_Based_on_Associations">
+    <rdfs:subClassOf rdf:resource="#Pattern-based_classification_"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_representation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Reuters">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Cluster_analysis-clustering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ACL_Anthology_NewWork">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="shortest_path_denpendency_kernel">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wiktionary">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#WIKIPedia"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Relation_Extraction-Semantic_relation_Extraction-RE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DKPro_WSD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="geospatial_relation_extraction">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="imdict">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="StandardAnalyzer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="JWNL">
+    <rdfs:subClassOf rdf:resource="#WordNet"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Interactive_QA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Data_encoding_and_canonicalization">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:about="#NLP-Natural_language_processing">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="opennlp">
+    <rdfs:subClassOf rdf:resource="#UIMA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="k_medoids">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Partitioning_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="IKAnalyzer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="IEPA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bioinformatics_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Enumeration_methods">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bi_clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="hypernymy">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Top-k_retrieval_in_databases">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Speech_audio_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Multimedia_and_multimodal_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Novelty_in_information_retrieval">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="improved_iterative_scaling-IIS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Maximum_entropy_modeling-MaxEnt"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="extraction_patterns-concept_node_generator">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="UNL-NL_Dictionary">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Algorithm_research">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DKPro_Core">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Feature_selection-Feature_engineering-properties">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Julius">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Speech_recognition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="subseqence_kernel">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Search_index_compression">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine_architectures_and_scalability"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="p_Cluster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Frequent_pattern-based"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Frequent_pattern-based">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Maximum_a_posteriori_modeling">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="sequential_minimal_optimization-SMO">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SVM-Support_vector_machines"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="syntactic_structures-semantic_structures">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#syntactic_features-parser_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EU_proceedings">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HTML_text_structures">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#local_Features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Ontology_Learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Multi_task_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Supervised_learning-supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#SVM-Support_vector_machines">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Advanced_reasoning_for_QA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LDA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Topic_model"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Computational_semantics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SEMILAT-Semantic_Similarity_Annotation_Tool">
+    <rdfs:subClassOf rdf:resource="#annotation_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Gene_Ontology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bioinformatics_Ontology"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CCS">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mixture_models">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Clustering_and_classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="baidu">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine-retrieval_system"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="hyponym">
+    <rdfs:subClassOf rdf:resource="#hypernymy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="case_study">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="filter">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="YAGO">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="k_means">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Partitioning_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SRA_Project">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ParaTools">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="voted_perceptron">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="perceptron-perceptron_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Agnes-Agglomerative_Nesting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Hierarchical_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DBSCAN-Density-Based_Spatial_Clustering_of_Applications_with_Noise">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Density-Based_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="USENET_newsgroups">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#NLP_tools">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="lexico_syntactic_patterns">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="hand_crafted_extraction_grammar-hand_crafted_rules"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Metalinguistic_Operation_Processor-MOP">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FudanNLP">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:about="#similarity_tool-Semantic_NLP">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="GRE-generic_relation_extraction">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OpenIE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#FrameWork"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="temporally_anchored_relation_extraction">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WWW">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Naive_Bayes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bayes_Classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rouge-SU4">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ROUGE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Indri_retrieval_system">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine-retrieval_system"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lemmaizer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lemmatization_and_stemmer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Language">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="trigram_features">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Co_Training">
+    <rdfs:subClassOf rdf:resource="#Semi_Supervised_Classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="system_in_paper">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="boosting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Ensemble_methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="tokens">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Scala">
+    <rdfs:subClassOf rdf:resource="#Language"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ID3">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Decision_Tree"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SemCor_corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="English_Brown_Corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FASTUS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="inaugural">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="hypernyms">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="pattern_sets">
+    <rdfs:subClassOf rdf:resource="#seeds"/>
+  </owl:Class>
+  <owl:Class rdf:ID="JGibbLDA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Proteus_system">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="knowledge_based_method-knowledge_driven_method">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Basic_Method"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Google">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine-retrieval_system"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#local_Features">
+    <rdfs:subClassOf rdf:resource="#Feature_selection-Feature_engineering-properties"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_topic_models">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BulNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="UBY">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Toolkit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Grid-Based_Method">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Non_negative_matrix_factorization">
+    <rdfs:subClassOf rdf:resource="#Factorization_method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Causal_Relation_Extraction">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Toolkit">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_Classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="KDD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="KCite">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="scikit_learn">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Machine_Learning_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Web_Based_Information-word-based_features">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LT_TTT">
+    <rdfs:subClassOf rdf:resource="#tokenlizer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="W4F">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mannual_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="precision">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="bilingual_lexicon">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SOM">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Probability_Model-Based_Clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Searching_with_auxiliary_databases">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine_architectures_and_scalability"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="icdm09cma1_Corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Grammar_Productions">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="document_summarizes">
+    <rdfs:subClassOf rdf:resource="#system_in_paper"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Trigrams">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="N_Gram"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PDFBox">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Preprocess"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BRAT">
+    <rdfs:subClassOf rdf:resource="#annotation_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="syntactic_distributional_analysis">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#syntactic_features-parser_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CLIQUE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Density-Based_Methods"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TSIMMIS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Mannual_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="XSLT">
+    <rdfs:subClassOf rdf:resource="#Language"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Social_Media_Documents-Social_Media_Text">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="shallow_parsing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="parsing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="lexico_semantic_pattern">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#hand_crafted_extraction_grammar-hand_crafted_rules"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dictionaries">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Machine_Translation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="phrase-Base_Phrase_Chunking">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BioInfer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bioinformatics_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Search_engine_architectures_and_scalability">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Chemical_and_biochemical_retrieval">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Structure_and_multilingual_text_search"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Latent_variable_models">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Charniak_Johnson_parser-Charniak_parser-Brown_reranking_parser-BLLIP_reranking_parser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="finite_state_pattern_matcher-finite_state_model-FSM">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Pattern_Matching"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tokenization">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ICTCLAS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Name_List">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Word_list"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#semantic_modelling-Topic_model">
+    <rdfs:subClassOf rdf:resource="#similarity_tool-Semantic_NLP"/>
+  </owl:Class>
+  <owl:Class rdf:ID="extracting_term_Descriptions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sentence_Analyzer">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="lexical_and_syntactic_properties">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="JAVA">
+    <rdfs:subClassOf rdf:resource="#Language"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Overlap">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mannual_tool">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Machine_Learning-Feature_based_Methord-statistical_learning">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Basic_Method"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="maximum_spanning_tree">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="graph_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Desktop_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Environment_specific_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="event_graph_model">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Graph_Model"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Partitioning_Methods">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Stanford_NLP_package">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="UBY-LMF">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FrameNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#WIKIPedia">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bayes_Classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Broadcast_News">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ICMD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PCA_based_approaches">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Correlation-based_clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mindnet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Link_and_co-citation_analysis">
+    <rdfs:subClassOf rdf:resource="#Search_engine_architectures_and_scalability"/>
+  </owl:Class>
+  <owl:Class rdf:ID="newswire_corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CLARANS">
+    <rdfs:subClassOf rdf:resource="#Partitioning_Methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="simhash">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IBM_DeepQA_Watson_project">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BasicRE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="multilanguage">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Open_cyc">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PDF2HTML">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Preprocess"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ClearTK">
+    <rdfs:subClassOf rdf:resource="#UIMA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="POS-part_of_speech-POS-_tag">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Basic_Method">
+    <rdfs:subClassOf rdf:resource="#Computional_Linguistics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="constrained_clustering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="User-guided_or_constraint-based"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="semantic_entity_types">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_zoning">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Structured_text_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Structure_and_multilingual_text_search"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Decision_Tree">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="English_Gigaword_corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Image_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Multimedia_and_multimodal_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="AQUAINT_2">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="British_Academic_Written_English_Corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WMtrans">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lemmatization_and_stemmer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CoNLL">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="respapersim">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Reinforcement_learning">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LingPipe">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LREC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FREQT">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="tree_miner"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Content_analysis_and_feature_selection">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Matrix_decomposition">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Dimensionality_reduction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Topic_modeling">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SEMILAR">
+    <rdfs:subClassOf rdf:resource="#similarity_tool-Semantic_NLP"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >&lt;p style="margin-top: 0"&gt;&#xD;
+      A Semantic Similarity Toolkit&#xD;
+    &lt;/p&gt;</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="CST_Lemmatiser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lemmatization_and_stemmer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Gaussian_processes">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Neural_networks">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_classification-classification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Video_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Multimedia_and_multimodal_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LarKC">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SimRank">
+    <rdfs:subClassOf rdf:resource="#Link-based_clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Coreference_Task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Brill_tagger">
+    <rdfs:subClassOf rdf:resource="#POS_Tagger"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PPI_extraction_system">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#domain_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="convolution_dependency_path_kernel">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DeLa">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Free_Base">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Contextual_information">
+    <rdfs:subClassOf rdf:resource="#Feature_selection-Feature_engineering-properties"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ChineseAnalyzer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Stopwords_moving">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="hypernym">
+    <rdfs:subClassOf rdf:resource="#hypernymy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ontologies">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Similarity_measures">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="census1990">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Linguistic_Annotation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Annotation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="preparser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#parsing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="co_hyponyms">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cambridge_English_Corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DataSet-Corpora"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Apache_Lucene">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DataSet-Corpora">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Adversarial_retrieval">
+    <rdfs:subClassOf rdf:resource="#Search_engine_architectures_and_scalability"/>
+  </owl:Class>
+  <owl:Class rdf:about="#parsing">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Finite_state_machine">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="automata_theory"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="LinkClus">
+    <rdfs:subClassOf rdf:resource="#Link-based_clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="spaCy">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Organization">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="preprocessor">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nobel_Prize_award_corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="entity_distance">
+    <rdfs:subClassOf rdf:resource="#Entity_Attributes"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Natural_language_generation">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Business_intelligence">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_Chunking">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#lemmatization_and_stemmer">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Canonical_correlation_analysis">
+    <rdfs:subClassOf rdf:resource="#Factorization_method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Coling-International_Conference_on_Computational_Linguistics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OntoUSP">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Inverse_reinforcement_learning">
+    <rdfs:subClassOf rdf:resource="#Reinforcement_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="sentence_segmentation">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Clustering_High-Dimensional">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PatternWiki">
+    <rdfs:subClassOf rdf:resource="#WIKIPedia"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FTM_Project">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Knowledge_Based_Engineering-_Knowledge-Engineering">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information_Fusion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="QA_toolkit">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ensemble_methods">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Corpus-based_Measures">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="similarity_measures"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="focus_based_summarization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Automatic_summarization-Text_summarization"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MUC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#tree_miner">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Source_separation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="pdfmark">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EuroWordNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cross_Lingual_Information_Fusion">
+    <rdfs:subClassOf rdf:resource="#Information_Fusion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OLERA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MSTParser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WebProtege">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Protege"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="base_phrase_chunking">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="overgeneration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="UNITEXT">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="corpus_processing_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Question_classes">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Word_Sense_Disambiguation-WSD">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Retrieval_on_mobile_devices">
+    <rdfs:subClassOf rdf:resource="#Search_engine_architectures_and_scalability"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Structure_and_multilingual_text_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Specialized_information_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HowNet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexical_databases"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Lexical_databases">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="askMSR">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="zhonto">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Factor_analysis">
+    <rdfs:subClassOf rdf:resource="#Factorization_method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CIRCUS">
+    <rdfs:subClassOf rdf:resource="#Sentence_Analyzer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Logistic_Regression">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Supervised_learning_by_regression-regression-linear_discriminative_function"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="_20_news_groups">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Query_intent">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_retrieval_query_processing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Evidential_Model">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="voted_perceptron_learning_algorithms">
+    <rdfs:subClassOf rdf:resource="#Reinforcement_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Search_Engine">
+    <rdfs:subClassOf rdf:resource="#system_in_paper"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Supervised_learning_by_classification-classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning-supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Collaborative_search">
+    <rdfs:subClassOf rdf:resource="#Users_and_interactive_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Spell_Check">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IIS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="CRF-conditional_random_field"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="AkaneRE">
+    <rdfs:subClassOf rdf:resource="#PPI_extraction_system"/>
+  </owl:Class>
+  <owl:Class rdf:ID="unigram_lexical_features">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lexicon_features-lexical_features"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ICML">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Named_Entity_Recognition-NER">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Acoustic_model">
+    <rdfs:subClassOf rdf:resource="#Speech_Recognition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Self_training">
+    <rdfs:subClassOf rdf:resource="#Semi_Supervised_Classification"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Short_text_Classification">
+    <rdfs:subClassOf rdf:resource="#Text_Classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CEC-Corpus-master">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="knowledge_structure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OTB">
+    <rdfs:subClassOf rdf:resource="#POS_Tagger"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HIT_CIR_Tongyici_Cilin">
+    <rdfs:subClassOf rdf:resource="#Lexical_databases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EXALG">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ResearchCyc_knowledge_base">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="User_profiling_for_QA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BioEve">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bag_of_Words">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WHISK">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="sentiwordnet">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ACE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CMAR-Classification_based_on_Multiple_Association_Rules">
+    <rdfs:subClassOf rdf:resource="#Pattern-based_classification_"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Association">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Automatic_summarization-Text_summarization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EMP_ORG">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Porter">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DARPA">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Semantic_Relations_Dataset">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="log_linear_model">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Supervised_learning_by_regression-regression-linear_discriminative_function"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Annotation">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PLSA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Topic_model"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="GIS">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#CRF-conditional_random_field"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#English_Brown_Corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:about="#syntactic_features-parser_features">
+    <rdfs:subClassOf rdf:resource="#lexical_and_syntactic_properties"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NLPIR">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Subspace-clustering">
+    <rdfs:subClassOf rdf:resource="#Clustering_High-Dimensional"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WIEN">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Information_college_taxonomy">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_Enrichment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OntoSyphon">
+    <rdfs:subClassOf rdf:resource="#Ontology_driven_information_Extractor"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Information_clustering_for_QA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="multilingual_data_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#hand_crafted_extraction_grammar-hand_crafted_rules">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Rule_Based-rule-based_approach-pattern-based_approache"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SMART">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Search_engine-retrieval_system"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Supervised_learning-supervised_learning_algorithm">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Voicemail_Transcripts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ACE_dataset">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CORE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lexicon"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Task_models">
+    <rdfs:subClassOf rdf:resource="#Users_and_interactive_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Anomaly_detection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="convolution_tree_kernel">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="tree_kernel"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Recommender_systems">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DIPRE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PCA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Dimensionality_reduction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Paice">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Metalinguistic_Information_Extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Answer_formulation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Name_Entity">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rstem">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Stanford_Word_Segmenter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_generator">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NoDoSE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Named_Entity_Task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Gene_Regulation_Ontology">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bioinformatics_Ontology"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Definition-based_Measures">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#similarity_measures"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Expert_search">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Multi_agent_reinforcement_learning">
+    <rdfs:subClassOf rdf:resource="#Reinforcement_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="effectiveness_of_different_feature_subspaces">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="evaluate_of_information_extraction-estimate_for_information_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Evaluation_measures">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EMNLP-Conference_on_Empirical_Methods_in_Natural_Language_Processing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HPRD50">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bioinformatics_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="bootstrapping">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Semi_supervised_learning-Distant_Supervision-semi_supervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Search_engine_indexing">
+    <rdfs:subClassOf rdf:resource="#Search_engine_architectures_and_scalability"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Motif_discovery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Statistical_Theory-Statistical_methods_data-driven_methods">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Michigan_Corpus_of_Academic_Spoken_English">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DARE_System">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IE"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Metalinguistic_Information_Databases-MIDs">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#manually_process">
+    <rdfs:subClassOf rdf:resource="#knowledge_based_method-knowledge_driven_method"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information_retrieval_query_processing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Retrival"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cost_sensitive_learning">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HPSG-Head_driven_Phrase_Structure_Grammar">
+    <rdfs:subClassOf rdf:resource="#Mogura"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Stemming_and_Lemmatisation">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Dimensionality_reduction">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SpellCheckPlus">
+    <rdfs:subClassOf rdf:resource="#Spell_Check"/>
+  </owl:Class>
+  <owl:Class rdf:about="#FrameWork">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WebOQL">
+    <rdfs:subClassOf rdf:resource="#Mannual_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Density-Based_Methods">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hidden_Markov_Model-HMM">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:about="#IE">
+    <rdfs:subClassOf rdf:resource="#system_in_paper"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information_Extraction_tool">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Adaptation_of_Relation_Extraction_Rules">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Extraction_Rules-recognition_rules"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#User-guided_or_constraint-based">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MMAnalyzer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#lexicon_features-lexical_features">
+    <rdfs:subClassOf rdf:resource="#lexical_and_syntactic_properties"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Environment_specific_retrieval">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Specialized_information_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Deep_parser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cross_Media_Information_Fusion">
+    <rdfs:subClassOf rdf:resource="#Information_Fusion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wordnet_hypernyms">
+    <rdfs:subClassOf rdf:resource="#hypernyms"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PDF_Extract">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Preprocess"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Synonym_Resolution">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Coreference_Resolution-CO-Co_reference_resolution"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ACM">
+    <rdfs:subClassOf rdf:resource="#Association"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MALTPARSER">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BLESS">
+    <rdfs:subClassOf rdf:resource="#Semantic_Relations_Dataset"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Context_and_QA">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issues"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="linguistic_grammar_rule">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Snowball_">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bioinformatics_Ontology">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PLUM">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sem_Tag_and_seeker">
+    <rdfs:subClassOf rdf:resource="#Ontology_driven_information_Extractor"/>
+  </owl:Class>
+  <owl:Class rdf:ID="C4.5">
+    <rdfs:subClassOf rdf:resource="#Decision_Tree"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Weka">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Machine_Learning_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="similarity">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="management_succession_corpora">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bindings_Engine-BE">
+    <rdfs:subClassOf rdf:resource="#Search_Engine"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Learning_to_rank-">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Term_Frequencies">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LiuNorm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="UMLS-Unified_Medical_Language_System"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Machine_Learning_tool">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WordNet_synset">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="gazetteer_features">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Issues">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="QA-Question_Answering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="amendo">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NNLM">
+    <rdfs:subClassOf rdf:resource="#language_models"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information_Retrival">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="shortest_path">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#parse_dependency_tree-dependency_parse_trees"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sequential_decision_making">
+    <rdfs:subClassOf rdf:resource="#Reinforcement_learning"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Correlation-based_clustering">
+    <rdfs:subClassOf rdf:resource="#Subspace-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TF-IDF">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="VSM-Vector_space_model"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Adtree">
+    <rdfs:subClassOf rdf:resource="#Decision_Tree"/>
+  </owl:Class>
+  <owl:Class rdf:ID="STALKER">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Movie_Review_Data">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Domain_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ANN-ACL_Anthology_NetWork">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ACL_Anthogy"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="I2B2">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DEByE">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="AKT_EPrints_archive">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Dependency_Tree_Kernels">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#tree_kernel"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Peer-to-peer_retrieval">
+    <rdfs:subClassOf rdf:resource="#Search_engine_architectures_and_scalability"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TextTeaser">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Semi_supervised_learning-Distant_Supervision-semi_supervised_learning_algorithm">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bigram">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#N_Gram"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MINIPAR">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="terminological_resources">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="gibbs_sampling">
+    <rdfs:subClassOf rdf:resource="#Statistical_Theory-Statistical_methods_data-driven_methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="URES">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SN">
+    <rdfs:subClassOf rdf:resource="#Semantic_Relations_Dataset"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hierarchical_Methods">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Evaluation_of_Summaries">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Near_duplicate_and_plagiarism_detection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="On_Demand_Information_Extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Graph_Model">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Document_Represent"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="C_C_Taggers">
+    <rdfs:subClassOf rdf:resource="#POS_Tagger"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Apprenticeship_learning">
+    <rdfs:subClassOf rdf:resource="#Reinforcement_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sentiment_analysis1">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="semantic_roles">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="COD-obstacles">
+    <rdfs:subClassOf rdf:resource="#User-guided_or_constraint-based"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Supervised_learning_by_regression-regression-linear_discriminative_function">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sentiment_Classification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Sentiment_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="COBWEB">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Probability_Model-Based_Clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mixture_modeling">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="IEPAD">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Labeling_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CAMELEON-Hierarchical_Clustering_Using_Dynamic_Modeling">
+    <rdfs:subClassOf rdf:resource="#Hierarchical_Methods"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Protege">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CPAR-Classification_based_on_Predictive_Association_Rules">
+    <rdfs:subClassOf rdf:resource="#Pattern-based_classification_"/>
+  </owl:Class>
+  <owl:Class rdf:ID="recall">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Template_Element_Task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thesauri">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:about="#heuristic_algorithm">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="STRD-Statistical_Reference_Datasets">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reference_Dataset"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Handwriting_recognition">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="entity_type">
+    <rdfs:subClassOf rdf:resource="#Entity_Attributes"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bi_clustering">
+    <rdfs:subClassOf rdf:resource="#Subspace-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Answer_extraction">
+    <rdfs:subClassOf rdf:resource="#Issues"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GATE">
+    <rdfs:subClassOf rdf:resource="#FrameWork"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RNNLM">
+    <rdfs:subClassOf rdf:resource="#language_models"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rexa">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Convolutional_Neural_Networks">
+    <rdfs:subClassOf rdf:resource="#Neural_networks"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Summarization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Retrieval_tasks_and_goals"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Spell_Checking">
+    <rdfs:subClassOf rdf:resource="#Grammar_checker"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Penn_Treebank">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TreeBank"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Gutenberg">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:about="#domain_tool">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MULDER">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#graph_features">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#VSM-Vector_space_model">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Document_Represent"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#*SEM">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_structure">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Issue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#similarity_measures">
+    <rdfs:subClassOf rdf:resource="#similarity"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Rule-Based_Classification">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_classification-classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DUC-Document_Understanding_Conference">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="relation_pattern">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="template"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Open_information_extraction-Open_IE-OIE-unrestricted_relation_discovery">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IDEX">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Discriminative_Classifiers">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_classification-classification"/>
+  </owl:Class>
+  <owl:Class rdf:about="#corpus_processing_tool">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Pattern-based_measure">
+    <rdfs:subClassOf rdf:resource="#similarity_measures"/>
+  </owl:Class>
+  <owl:Class rdf:ID="hand_built">
+    <rdfs:subClassOf rdf:resource="#manually_process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="KnowItNow">
+    <rdfs:subClassOf rdf:resource="#QA_toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lancaster_Stemmer">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HanLP">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bayesian_Belief_Networks">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#probabilistic_graphical_models"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Template_Relation_Task">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OpenNLP">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Labeling_tool">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="British_National_Corpus-BNC">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BIRCH-Balanced_Iterative_Reducing_and_Clustering_Using_Hierarchies">
+    <rdfs:subClassOf rdf:resource="#Hierarchical_Methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Open_domain_question_answering">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#QA-Question_Answering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TreeTagger">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >&lt;p style="margin-top: 0"&gt;&#xD;
+      POS&#xD;
+    &lt;/p&gt;</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#POS_Tagger"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EM">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Probability_Model-Based_Clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hybrid_method">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Optimization-based_methods">
+    <rdfs:subClassOf rdf:resource="#Bi_clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="parse_tree">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Sentiment_analysis">
+    <rdfs:subClassOf rdf:resource="#Computational_semantics"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bioinformatics_corpus">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#academic_corpus"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Retrieval_effectiveness">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_retrieval_results"/>
+  </owl:Class>
+  <owl:Class rdf:ID="japanese_part-_of_speech_tagger">
+    <rdfs:subClassOf rdf:resource="#POS_Tagger"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wallach">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#CRF-conditional_random_field"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Pattern_Matching">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Support_Vector_Machines">
+    <rdfs:subClassOf rdf:resource="#Discriminative_Classifiers"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Medline_articles">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Process_Object"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CJKAnalyzer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Word_Segmentation_tool"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="syntactic_patterns">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ROUGE">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_Summaries"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Musicbrainz">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Jubatus">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Viterbi">
+    <rdfs:subClassOf rdf:resource="#Hidden_Markov_models-HMM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="EXCOM">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Retrieval_tasks_and_goals">
+    <rdfs:subClassOf rdf:resource="#Information_Retrival"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Relevance_assessment">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_retrieval_results"/>
+  </owl:Class>
+  <owl:Class rdf:ID="fragment">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="cross_lingual_summarization">
+    <rdfs:subClassOf rdf:resource="#Automatic_summarization-Text_summarization"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Presentation_of_retrieval_results">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_retrieval_results"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Reference_Dataset">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Information_retrieval_diversity">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RIPTIDES">
+    <rdfs:subClassOf rdf:resource="#document_summarizes"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bagging">
+    <rdfs:subClassOf rdf:resource="#Ensemble_methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Matlab">
+    <rdfs:subClassOf rdf:resource="#Language"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VerbOcean">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Event_Extraction">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lucene.Net_Contrib.snowball">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:about="#probabilistic_graphical_models">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Maximum_entropy_modeling-MaxEnt">
+    <rdfs:subClassOf rdf:resource="#probabilistic_graphical_models"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Background_Knowledge">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Text_Semantic_Similarity">
+    <rdfs:subClassOf rdf:resource="#semantic_Similarity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DeepDive">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WS4J-WordNet_Similarity_for_Java">
+    <rdfs:subClassOf rdf:resource="#WordNet"/>
+  </owl:Class>
+  <owl:Class rdf:ID="bigrams">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#tree_kernel">
+    <rdfs:subClassOf rdf:resource="#Kernel_Based_Method-kernel_function-kernel_method-kernel_approaches"/>
+  </owl:Class>
+  <owl:Class rdf:ID="InfoXtract">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:about="#academic_corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:about="#semantic_features-semantic_information-Semantic_Resources">
+    <rdfs:subClassOf rdf:resource="#local_Features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Word_Segmentation_tool">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CCD-Chinese_Concept_Dictionary">
+    <rdfs:subClassOf rdf:resource="#Lexical_databases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="contiguous_subtree_kernel">
+    <rdfs:subClassOf rdf:resource="#tree_kernel"/>
+  </owl:Class>
+  <owl:Class rdf:ID="gazetteer">
+    <rdfs:subClassOf rdf:resource="#Lexical_databases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="world_and_linguistic_knowledge">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="wiki2vec">
+    <rdfs:subClassOf rdf:resource="#similarity_tool-Semantic_NLP"/>
+  </owl:Class>
+  <owl:Class rdf:about="#N_Gram">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Document_Represent"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="query_based_summarization">
+    <rdfs:subClassOf rdf:resource="#Automatic_summarization-Text_summarization"/>
+  </owl:Class>
+  <owl:Class rdf:ID="K-near">
+    <rdfs:subClassOf rdf:resource="#Lazy_Learners"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lexicon">
+    <rdfs:subClassOf rdf:resource="#Infrastructure"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Distributional_Measures">
+    <rdfs:subClassOf rdf:resource="#similarity_measures"/>
+  </owl:Class>
+  <owl:Class rdf:ID="lemmald">
+    <rdfs:subClassOf rdf:resource="#lemmatization_and_stemmer"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Petuum">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Transfer_Learning">
+    <rdfs:subClassOf rdf:resource="#Multi_task_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="word_clusters">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Rule_Based-rule-based_approach-pattern-based_approache">
+    <rdfs:subClassOf rdf:resource="#knowledge_based_method-knowledge_driven_method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Retrieval_efficiency">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_retrieval_results"/>
+  </owl:Class>
+  <owl:Class rdf:ID="object_oriented_Method">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Paraphrase_corpora">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:about="#perceptron-perceptron_algorithm">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_regression-regression-linear_discriminative_function"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Topics">
+    <rdfs:subClassOf rdf:resource="#Computional_Linguistics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="word2vec">
+    <rdfs:subClassOf rdf:resource="#similarity_tool-Semantic_NLP"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WVTool">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ACL_Anthogy">
+    <rdfs:subClassOf rdf:resource="#academic_corpus"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Multilingual_question_answering">
+    <rdfs:subClassOf rdf:resource="#Issues"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Dependency_Relations_and_Dependency_Paths">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Quasi_Newton_methodBFGS">
+    <rdfs:subClassOf rdf:resource="#Maximum_entropy_modeling-MaxEnt"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Search_engine-retrieval_system">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Question_processing">
+    <rdfs:subClassOf rdf:resource="#Issues"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BaumWelch">
+    <rdfs:subClassOf rdf:resource="#Hidden_Markov_models-HMM"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_filtering">
+    <rdfs:subClassOf rdf:resource="#Retrieval_tasks_and_goals"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CBR-Case-Based_Reasoning">
+    <rdfs:subClassOf rdf:resource="#Lazy_Learners"/>
+  </owl:Class>
+  <owl:Class rdf:ID="manual_annotations">
+    <rdfs:subClassOf rdf:resource="#semantic_features-semantic_information-Semantic_Resources"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GPE_AFF">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Learning_to_rank">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AutoSlog">
+    <rdfs:subClassOf rdf:resource="#extraction_patterns-concept_node_generator"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PER_SOC">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Named_Entities_Recognizer">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DenClue-DENsity-based_CLUstEring">
+    <rdfs:subClassOf rdf:resource="#Density-Based_Methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Personalization">
+    <rdfs:subClassOf rdf:resource="#Users_and_interactive_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rouge_N">
+    <rdfs:subClassOf rdf:resource="#ROUGE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Principal_component_analysis">
+    <rdfs:subClassOf rdf:resource="#Factorization_method"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Domain_corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Multilingual_and_cross-lingual_retrieval">
+    <rdfs:subClassOf rdf:resource="#Structure_and_multilingual_text_search"/>
+  </owl:Class>
+  <owl:Class rdf:ID="The_Stanford_Parser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SEMILAR_Corpus">
+    <rdfs:subClassOf rdf:resource="#Paraphrase_corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="deep_parsing">
+    <rdfs:subClassOf rdf:resource="#parsing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PANKOW">
+    <rdfs:subClassOf rdf:resource="#Ontology_driven_information_Extractor"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Penn_Chinese_Treebank">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TreeBank"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Lexical_Semantic_structure">
+    <rdfs:subClassOf rdf:resource="#semantic_features-semantic_information-Semantic_Resources"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Multimedia_and_multimodal_retrieval">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Specialized_information_retrieval"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Template_design">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Extraction_Rules-recognition_rules"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Combination_fusion_and_federated_search">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="hybrid_measures">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="unofficial_measures">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#parse_dependency_tree-dependency_parse_trees">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#text_understanding_Evaluation-Information_Extraction_evaluation-text_analysis">
+    <rdfs:subClassOf rdf:resource="#Text_understanding-text_analysis"/>
+  </owl:Class>
+  <owl:Class rdf:about="#CRF-conditional_random_field">
+    <rdfs:subClassOf rdf:resource="#probabilistic_graphical_models"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fspar">
+    <rdfs:subClassOf rdf:resource="#UIMA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="C">
+    <rdfs:subClassOf rdf:resource="#Language"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mathematics_retrieval">
+    <rdfs:subClassOf rdf:resource="#Structure_and_multilingual_text_search"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Relational_Classification_Dataset">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="genetic_algorithm">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_classification-classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="USACOM">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Concept_Semantic_Similarity">
+    <rdfs:subClassOf rdf:resource="#semantic_Similarity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TAC">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Medstract">
+    <rdfs:subClassOf rdf:resource="#domain_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Word_list">
+    <rdfs:subClassOf rdf:resource="#semantic_features-semantic_information-Semantic_Resources"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WordSim353">
+    <rdfs:subClassOf rdf:resource="#Semantic_Relations_Dataset"/>
+  </owl:Class>
+  <owl:Class rdf:ID="JDPA_Sentiment_Corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:about="#UMLS-Unified_Medical_Language_System">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="multiple_overlapping_feature">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CYC">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SVD">
+    <rdfs:subClassOf rdf:resource="#Matrix_decomposition"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Language_guess_tool">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:about="#template">
+    <rdfs:subClassOf rdf:resource="#Rule_Based-rule-based_approach-pattern-based_approache"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Apache_POI">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Preprocess"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CFG_Parser">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MatLab">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PPI-Protein_protein_interaction">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bag_of_words">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Document_Represent"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Structured_outputs">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_Classification">
+    <rdfs:subClassOf rdf:resource="#Text_Classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="NLTK">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="JWI-the_MIT_Java_Wordnet_Interface">
+    <rdfs:subClassOf rdf:resource="#WordNet"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mallet">
+    <rdfs:subClassOf rdf:resource="#FrameWork"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Yahoo">
+    <rdfs:subClassOf rdf:resource="#Search_engine-retrieval_system"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Confidence_Estimation-error_analysis_of_relation_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#evaluate_of_information_extraction-estimate_for_information_extraction"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Regular_expression">
+    <rdfs:subClassOf rdf:resource="#Rule_Based-rule-based_approach-pattern-based_approache"/>
+  </owl:Class>
+  <owl:Class rdf:ID="GermaNet">
+    <rdfs:subClassOf rdf:resource="#Lexical_databases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CWB">
+    <rdfs:subClassOf rdf:resource="#Lexical_databases"/>
+  </owl:Class>
+  <owl:Class rdf:ID="shallow_syntactic_features">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="shallow_and_deep_linguistic_analysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="MC">
+    <rdfs:subClassOf rdf:resource="#Semantic_Relations_Dataset"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Markov_logic">
+    <rdfs:subClassOf rdf:resource="#probabilistic_graphical_models"/>
+  </owl:Class>
+  <owl:Class rdf:about="#shallow_and_deep_linguistic_analysis">
+    <rdfs:subClassOf rdf:resource="#syntactic_features-parser_features"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Document_Represent">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Salad">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fuzzy_Set_Approaches">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_classification-classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TextRunner">
+    <rdfs:subClassOf rdf:resource="#Open_Information_Extractor"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OPTICS-Ordering_Points_To_Identify_the_Clustering_Structure_">
+    <rdfs:subClassOf rdf:resource="#Density-Based_Methods"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Data_sources_for_QA">
+    <rdfs:subClassOf rdf:resource="#Issues"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Web_and_social_media_search">
+    <rdfs:subClassOf rdf:resource="#Environment_specific_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Process_Object">
+    <rdfs:subClassOf rdf:resource="#Topics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FSPar">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Parser"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Document_collection_models">
+    <rdfs:subClassOf rdf:resource="#Document_representation"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Issue">
+    <rdfs:subClassOf rdf:resource="#Topics"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Terminology_Extraction">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LLL">
+    <rdfs:subClassOf rdf:resource="#Bioinformatics_corpus"/>
+  </owl:Class>
+  <owl:Class rdf:ID="named_entity_tagger-named_entity_tagging">
+    <rdfs:subClassOf rdf:resource="#Named_Entity_Recognition-NER"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AdaBoost">
+    <rdfs:subClassOf rdf:resource="#boosting"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Association_for_Computational_Linguistics">
+    <rdfs:subClassOf rdf:resource="#Association"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Coreference_Resolution-CO-Co_reference_resolution">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LDC-Linguistic_Data_Consortium">
+    <rdfs:subClassOf rdf:resource="#Association"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rank_aggregation">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Question_answering">
+    <rdfs:subClassOf rdf:resource="#Retrieval_tasks_and_goals"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SwitchBoard">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Language_models">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SHOGUN">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fuzzy_Clustering-Soft_Clusting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Probability_Model-Based_Clustering"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Probabilistic_retrieval_models">
+    <rdfs:subClassOf rdf:resource="#Retrieval_models_and_ranking"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Unsupervised_learning-Unsupervised_learning_algorithm">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="XWRAP">
+    <rdfs:subClassOf rdf:resource="#Mannual_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Preprocess">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="reuters21578">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Maximum_likelihood_modeling">
+    <rdfs:subClassOf rdf:resource="#probabilistic_graphical_models"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LibSVM">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="IWOMSP">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bag_of_words_feature">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WaveCluster">
+    <rdfs:subClassOf rdf:resource="#Grid-Based_Method"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Natural_language_parsing">
+    <rdfs:subClassOf rdf:resource="#Basic_Process"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Query_representation">
+    <rdfs:subClassOf rdf:resource="#Information_retrieval_query_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pattern_discovery">
+    <rdfs:subClassOf rdf:resource="#Pattern_Matching"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DBpedia">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="scientific_documents">
+    <rdfs:subClassOf rdf:resource="#Process_Object"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pattern_learning">
+    <rdfs:subClassOf rdf:resource="#Pattern_Matching"/>
+  </owl:Class>
+  <owl:Class rdf:ID="cross_linguistic_retrieval">
+    <rdfs:subClassOf rdf:resource="#Information_Retrival"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Probability_Model-Based_Clustering">
+    <rdfs:subClassOf rdf:resource="#Cluster_analysis-clustering"/>
+  </owl:Class>
+  <owl:Class rdf:ID="JWS-Java_WordNet_Similarity">
+    <rdfs:subClassOf rdf:resource="#WordNet"/>
+  </owl:Class>
+  <owl:Class rdf:about="#automata_theory">
+    <rdfs:subClassOf rdf:resource="#Basic_Method"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Dimensionality_reduction_approaches">
+    <rdfs:subClassOf rdf:resource="#Clustering_High-Dimensional"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Location_Normalization">
+    <rdfs:subClassOf rdf:resource="#WSD"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ohters">
+    <rdfs:subClassOf rdf:resource="#Issue"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Exemplars_Framework">
+    <rdfs:subClassOf rdf:resource="#Text_generator"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Extraction_Rules-recognition_rules">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="label_propagation-LP">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning-Feature_based_Methord-statistical_learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Query_log_analysis">
+    <rdfs:subClassOf rdf:resource="#Information_retrieval_query_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Web_Document">
+    <rdfs:subClassOf rdf:resource="#Process_Object"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Semantic_Role_Labeling-SRL-shallow_semantic_parsing">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OntoNotes_Corpus">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mahout">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="paoding">
+    <rdfs:subClassOf rdf:resource="#Word_Segmentation_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="trunk-chunk_tags">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Keyword_extractor">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AIMed">
+    <rdfs:subClassOf rdf:resource="#Bioinformatics_corpus"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Ranking">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Crosslingual_information_extraction">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="pre_CODIE">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:about="#evaluate_of_information_extraction-estimate_for_information_extraction">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WORDNET_SIMILARITY">
+    <rdfs:subClassOf rdf:resource="#WordNet"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Test_collections">
+    <rdfs:subClassOf rdf:resource="#Evaluation_of_retrieval_results"/>
+  </owl:Class>
+  <owl:Class rdf:ID="jSRE">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ART">
+    <rdfs:subClassOf rdf:resource="#Relation_Extraction-Semantic_relation_Extraction-RE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Terminology_extraction">
+    <rdfs:subClassOf rdf:resource="#NLP-Natural_language_processing"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Conference">
+    <rdfs:subClassOf rdf:resource="#Organization"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DEPTA">
+    <rdfs:subClassOf rdf:resource="#Labeling_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Wikipedia_infobox">
+    <rdfs:subClassOf rdf:resource="#semantic_features-semantic_information-Semantic_Resources"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Minerva">
+    <rdfs:subClassOf rdf:resource="#Mannual_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MedstractPlus">
+    <rdfs:subClassOf rdf:resource="#Medstract"/>
+  </owl:Class>
+  <owl:Class rdf:ID="semantic_information">
+    <rdfs:subClassOf rdf:resource="#semantic_features-semantic_information-Semantic_Resources"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WikiPedia">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Probabilistic_Coreference">
+    <rdfs:subClassOf rdf:resource="#Coreference_Resolution-CO-Co_reference_resolution"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Micro_blog_Classification">
+    <rdfs:subClassOf rdf:resource="#Short_text_Classification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MEMM-Maximum_Entropy_Markov_Model">
+    <rdfs:subClassOf rdf:resource="#probabilistic_graphical_models"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Phrase_Chunker">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CRF_">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TreeBank">
+    <rdfs:subClassOf rdf:resource="#KnowLedgeBase-Ontology"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rough_Set_Approach">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning_by_classification-classification"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Topic_model">
+    <rdfs:subClassOf rdf:resource="#Document_Represent"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sentence_Splitter">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="template_generation">
+    <rdfs:subClassOf rdf:resource="#Extraction_Rules-recognition_rules"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TF_IDF_features">
+    <rdfs:subClassOf rdf:resource="#lexicon_features-lexical_features"/>
+  </owl:Class>
+  <owl:Class rdf:ID="WOE">
+    <rdfs:subClassOf rdf:resource="#IE"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Pattern">
+    <rdfs:subClassOf rdf:resource="#FrameWork"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SVMLight">
+    <rdfs:subClassOf rdf:resource="#Machine_Learning_tool"/>
+  </owl:Class>
+  <owl:Class rdf:about="#QA-Question_Answering">
+    <rdfs:subClassOf rdf:resource="#Issue"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SIGIR">
+    <rdfs:subClassOf rdf:resource="#Conference"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Specialized_information_retrieval">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TIPSTER-Lockheed_Martin_TIPSTER_II_project">
+    <rdfs:subClassOf rdf:resource="#project_task"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Parser">
+    <rdfs:subClassOf rdf:resource="#NLP_tools"/>
+  </owl:Class>
+  <owl:Class rdf:ID="LSA">
+    <rdfs:subClassOf rdf:resource="#Topic_model"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Speech_recognition">
+    <rdfs:subClassOf rdf:resource="#Toolkit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Enterprise_search">
+    <rdfs:subClassOf rdf:resource="#Environment_specific_retrieval"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Active_Learning">
+    <rdfs:subClassOf rdf:resource="#Supervised_learning-supervised_learning_algorithm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="extraction_rules">
+    <rdfs:subClassOf rdf:resource="#Rule_Based-rule-based_approach-pattern-based_approache"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Multi_document_summarization">
+    <rdfs:subClassOf rdf:resource="#Automatic_summarization-Text_summarization"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RAPIER">
+    <rdfs:subClassOf rdf:resource="#Labeling_tool"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Pool_based_approach">
+    <rdfs:subClassOf rdf:resource="#Active_Learning"/>
+  </owl:Class>
+  <owl:Class rdf:ID="relation_instance_graph">
+    <rdfs:subClassOf rdf:resource="#Information_Extraction-text_undersanding-IE--text_analysis-Data_Extraction-automatic_data_extraction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="People1998">
+    <rdfs:subClassOf rdf:resource="#DataSet-Corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="MSRP-Microsoft_Research_Paraphrase_Corpus">
+    <rdfs:subClassOf rdf:resource="#Paraphrase_corpora"/>
+  </owl:Class>
+  <owl:Class rdf:ID="self_annotation">
+    <rdfs:subClassOf rdf:resource="#Annotation"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->
